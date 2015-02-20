@@ -9,6 +9,11 @@ package ch.heigvd.res.lab00;
  *
  * @author Thibault
  */
-public interface Instrument {
+public interface IInstrument {
+    
+    // Fonctions abstraites
+    public String play();
+    public int getSoundVolume();
+    public String getColor();
     
 }

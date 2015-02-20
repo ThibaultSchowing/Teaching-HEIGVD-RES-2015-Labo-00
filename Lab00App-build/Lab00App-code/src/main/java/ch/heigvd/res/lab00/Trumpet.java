@@ -10,6 +10,27 @@ package ch.heigvd.res.lab00;
  * @author Thibault
  */
 
-public class Trumpet implements Instrument {
+public class Trumpet implements IInstrument {
+    
+    private final String sound = "pouet";
+    private final int soundVolume = 20;
+    private final String color = "golden";
+    
+    public Trumpet(){
+        
+    }
+    
+    public String play(){
+        return this.sound;
+    }
+    
+    public int getSoundVolume() {
+        return this.soundVolume;
+    }
+    
+    public String getColor(){
+        return this.color;
+    }
     
 }
+
