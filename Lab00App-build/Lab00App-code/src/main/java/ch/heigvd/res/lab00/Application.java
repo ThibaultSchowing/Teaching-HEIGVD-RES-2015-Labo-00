@@ -28,6 +28,7 @@ public class Application {
     return message;
   }
 
+  // Problème réglé
   public int add(int a, int b) {
     return a + b;
   }
